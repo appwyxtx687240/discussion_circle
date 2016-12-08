@@ -17,7 +17,7 @@
 		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
 	</listener>
 	<!-- 系统启动时调用 -->
-	<!-- <listener>
-		<listener-class></listener-class>
-	</listener> -->
+	<listener>
+		<listener-class>com.forlove.discussionCircle.system.ContextLoaderListener</listener-class>
+	</listener>
 </web-app>

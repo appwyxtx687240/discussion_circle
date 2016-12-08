@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="discussionCircle:war">
+    <output-path>$PROJECT_DIR$/discussionCircle/target</output-path>
+    <root id="archive" name="discussion_circle.war">
+      <element id="artifact" artifact-name="discussionCircle:war exploded" />
+    </root>
+  </artifact>
+</component>
