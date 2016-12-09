@@ -30,6 +30,6 @@ public class ContextLoaderListener implements ServletContextListener {
 
     @java.lang.Override
     public void contextDestroyed(ServletContextEvent sce) {
-
+        logger.error("系统关闭");
     }
 }

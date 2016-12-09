@@ -7,6 +7,7 @@
           <element id="module-output" name="discussionCircle" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.40" />
           <element id="library" level="project" name="Maven: it.sauronsoftware.jave:jave:1.0" />
           <element id="library" level="project" name="Maven: com.bcloud.msg.http:bcloud:1.8" />
           <element id="library" level="project" name="Maven: com.chinamobo.ele:ele-intefaces:0.3" />
