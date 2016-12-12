@@ -1,4 +1,4 @@
-package com.forlove.discussionCircle.system;
+package com.forlove.discussionCircle.system.restful;
 
 import com.forlove.discussionCircle.ums.util.ApplicationContextUtils;
 import org.slf4j.Logger;

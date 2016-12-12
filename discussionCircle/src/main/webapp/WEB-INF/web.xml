@@ -18,7 +18,7 @@
     </listener>
     <!-- 系统启动时调用 -->
     <listener>
-        <listener-class>com.forlove.discussionCircle.system.ContextLoaderListener</listener-class>
+        <listener-class>com.forlove.discussionCircle.system.restful.ContextLoaderListener</listener-class>
     </listener>
 
     <servlet>
