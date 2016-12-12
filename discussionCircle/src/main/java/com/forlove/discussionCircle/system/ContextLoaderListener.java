@@ -1,6 +1,6 @@
 package com.forlove.discussionCircle.system;
 
-import com.forlove.discussionCircle.util.ApplicationContextUtils;
+import com.forlove.discussionCircle.ums.util.ApplicationContextUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.context.support.WebApplicationContextUtils;
@@ -25,7 +25,7 @@ public class ContextLoaderListener implements ServletContextListener {
         ApplicationContextUtils.init(applicationContext);
         context.setAttribute("startupDate", System.currentTimeMillis());
         logger.info("初始化数据...");
-//        applicationContext.getBean(Contextinitse)
+//        applicationContext.getBean(Contexinits)
     }
 
     @java.lang.Override
