@@ -1,0 +1,132 @@
+body {
+/*    line-height: 160%;*/
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+    background-color: #fff;
+}
+body,.header,.top-banner{
+    margin: 0px;
+    padding: 0px;
+}
+a,a:hover,a:active,a:focus{
+    text-decoration: none;
+    color: #fff;
+}
+a:focus {
+    outline: medium none;
+}
+.container-fluid {
+    padding: 0;
+}
+.navbar-container {
+    margin: 0 auto;
+    background-color: #208ae0;
+}
+.main-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-panel{
+    position: relative;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+.main-tips {
+    position: absolute;
+    z-index: 1000;
+}
+.main-section {
+    margin-top: 20px;
+}
+.tips-big {
+    width: 1200px;
+    color: #000;
+}
+.tips-big .glyphicon-exclamation-sign {
+    color: #ff0000;
+}
+.tips-big a {
+    color: #248ce0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main-body-wp {
+    position: relative;
+    padding: 45px 135px 55px 290px;
+    background: url("../images/reg_form_bg.png") no-repeat scroll 62px 62px;
+    overflow: hidden;
+}
+.main-body {
+    padding-top: 14px;
+    padding-left: 10px;
+}
+.form-horizontal {
+    padding-top: 10px;
+}
+.form-horizontal .form-group {
+    margin: 0 0 30px 0;
+}
+.form-horizontal .control-label {
+    padding-top: 0;
+    margin: 0;
+    text-align: right;
+}
+.txt-impt {
+    padding-right: 5px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.vl-middle {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.vl-bottom {
+    position: relative;
+    margin-top: 12px;
+    text-align: left;
+}
+.error {
+    color: #ff0000;
+}
+.error span{
+    display: block;
+    vertical-align: middle;
+    line-height: 46px;
+    overflow: hidden;
+}
+.glyphicon {
+    top: 0;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.footer {
+    text-align: center;
+    clear: both;
+    height: 40px;
+    line-height: 40px;
+    color: #999;
+    margin: 13px auto;
+    display: block;
+    padding: 0px;
+    border: medium none;
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+}
+.footer a:hover,
+.footer a:active,
+.footer a:focus{
+    text-decoration: none;
+    color: #4e4e4e;
+}
+.footer a:focus {
+    outline: dotted  #999;
+}
