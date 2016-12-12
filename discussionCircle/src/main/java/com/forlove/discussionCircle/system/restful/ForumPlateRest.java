@@ -61,15 +61,15 @@ public class ForumPlateRest {
      * 功能描述：[查询详细信息]
      *
      * 创建者：zhj
-     * @param id
+     * @param plateId
      * @return
      */
     @GET
     @Path("/selectById")
     @Produces({MediaType.APPLICATION_JSON})
-    public String selectById(int id) {
+    public String selectById(@QueryParam("plateId") Integer plateId) {
         try {
-            return mapper.writeValueAsString(plateService.selectByPrimaryKey(id));
+            return mapper.writeValueAsString(plateService.selectByPrimaryKey(plateId));
         }catch (JsonProcessingException e) {
             logger.error(e.getMessage(), e);
         }

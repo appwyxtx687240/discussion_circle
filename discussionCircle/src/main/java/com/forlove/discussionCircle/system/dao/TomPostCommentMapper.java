@@ -1,6 +1,7 @@
 package com.forlove.discussionCircle.system.dao;
 
-import com.chinamobo.ele.system.entity.TomPostComment;
+
+import com.forlove.discussionCircle.system.entity.TomPostComment;
 
 public interface TomPostCommentMapper {
     /**

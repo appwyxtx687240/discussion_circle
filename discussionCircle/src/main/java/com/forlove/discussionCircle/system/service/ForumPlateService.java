@@ -32,7 +32,7 @@ public class ForumPlateService {
             plate.setPlateNumber("HTFL000001");
         }
 
-        plate.setAdministrators("1");
+        plate.setEmpCode(1);
         plate.setCreater("1");
         plate.setCreateTime(new Date());
         plate.setOperator("1");
@@ -55,8 +55,8 @@ public class ForumPlateService {
         plateMapper.deleteByPrimaryKey(id);
     }
 
-    public TomForumPlate selectByPrimaryKey (int id) {
-        TomForumPlate forumPlate = plateMapper.selectByPrimaryKey(id);
+    public TomForumPlate selectByPrimaryKey (int plateId) {
+        TomForumPlate forumPlate = plateMapper.selectByPrimaryKey(plateId);
         return forumPlate;
     }
 

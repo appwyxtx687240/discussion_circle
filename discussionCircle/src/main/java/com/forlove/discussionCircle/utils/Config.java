@@ -25,7 +25,7 @@ public class Config {
     private static Properties initProperties(String fileName) {
         String appConfDirName = System.getProperty("catalina.base");
         Assert.hasLength(appConfDirName);
-        String appConfigFile = appConfDirName + "/appconf/" + fileName;
+        String appConfigFile = appConfDirName + "/conf/appconf/" + fileName;
         Properties properties = new Properties();
         logger.info("读取配置文件:{}...", appConfigFile);
 

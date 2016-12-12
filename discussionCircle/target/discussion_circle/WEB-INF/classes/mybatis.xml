@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <typeAlias type="com.forlove.discussionCircle.system.ContextLoaderListener"
+        <typeAlias type="com.forlove.discussionCircle.system.restful.ContextLoaderListener"
                    alias="ContextLoaderListener"/>
     </typeAliases>
 
